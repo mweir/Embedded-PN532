@@ -10,8 +10,10 @@ running Android 2.3.3.
 Files
 ==============
 NDEFPushProtocol - Implements the NDEF push protocol as described by http://static.googleusercontent.com/external_content/untrusted_dlcp/source.android.com/en/us/compatibility/ndef-push-protocol.pdf
+
 NFCLinkLayer - Implements the NFC LinkLayer Protocol that is used by the NDEFPushProtocol. The Link Layer protocol
                can be found at http://www.nfc-forum.org/specs/spec_list/.
+
 PN532 - Handle communication between the embedded device and the PN532 NFC reader.
 
 
